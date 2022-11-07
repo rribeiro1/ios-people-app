@@ -33,6 +33,7 @@
 		535AB6C8291705E500671E97 /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AB6C7291705E500671E97 /* NewPerson.swift */; };
 		535AB6CA2917063B00671E97 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AB6C92917063B00671E97 /* CreateViewModel.swift */; };
 		53BC5ECC29171C2C00A6C50A /* CheckmarkPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC5ECB29171C2C00A6C50A /* CheckmarkPopoverView.swift */; };
+		9E4400DE2919AC85009C6E39 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4400DD2919AC85009C6E39 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		535AB6C7291705E500671E97 /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
 		535AB6C92917063B00671E97 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 		53BC5ECB29171C2C00A6C50A /* CheckmarkPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkPopoverView.swift; sourceTree = "<group>"; };
+		9E4400DD2919AC85009C6E39 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				53492E0329198A76008071D5 /* UserDefaults */,
-				53492DFE2919875D008071D5 /* Utils */,
+				53492DFE2919875D008071D5 /* Haptics */,
 				5318BF382916615900C56AAC /* API */,
 				5347722F29139EA200ED2498 /* Views */,
 				531230312913284100366B5A /* Mapper */,
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				5318BF392916616800C56AAC /* NetworkingManager.swift */,
+				9E4400DD2919AC85009C6E39 /* Endpoint.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -319,12 +322,12 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		53492DFE2919875D008071D5 /* Utils */ = {
+		53492DFE2919875D008071D5 /* Haptics */ = {
 			isa = PBXGroup;
 			children = (
 				53492DFF29198770008071D5 /* HapticsManager.swift */,
 			);
-			path = Utils;
+			path = Haptics;
 			sourceTree = "<group>";
 		};
 		53492E0329198A76008071D5 /* UserDefaults */ = {
@@ -424,6 +427,7 @@
 				535AB6C8291705E500671E97 /* NewPerson.swift in Sources */,
 				5318BF3C291669AB00C56AAC /* PeopleViewModel.swift in Sources */,
 				53492E0529198A8C008071D5 /* UserDefaultKeys.swift in Sources */,
+				9E4400DE2919AC85009C6E39 /* Endpoint.swift in Sources */,
 				5318BF372915790200C56AAC /* CreateView.swift in Sources */,
 				53492DFD291954C2008071D5 /* CreateValidator.swift in Sources */,
 				5318BF3E29166F2800C56AAC /* DetailViewModel.swift in Sources */,
