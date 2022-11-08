@@ -34,6 +34,9 @@
 		535AB6CA2917063B00671E97 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535AB6C92917063B00671E97 /* CreateViewModel.swift */; };
 		53B8E4FF291A370E00646808 /* JSONMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8E4FE291A370E00646808 /* JSONMapperTests.swift */; };
 		53B8E504291AA58000646808 /* CreateFormValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8E503291AA58000646808 /* CreateFormValidatorTests.swift */; };
+		53B8E508291AB63C00646808 /* NetworkingEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8E507291AB63C00646808 /* NetworkingEndpointTests.swift */; };
+		53B8E50B291AFE3900646808 /* MockURLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8E50A291AFE3900646808 /* MockURLSessionProtocol.swift */; };
+		53B8E50E291B006100646808 /* NetworkingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8E50D291B006100646808 /* NetworkingManagerTests.swift */; };
 		53BC5ECC29171C2C00A6C50A /* CheckmarkPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC5ECB29171C2C00A6C50A /* CheckmarkPopoverView.swift */; };
 		9E4400DE2919AC85009C6E39 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4400DD2919AC85009C6E39 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
@@ -79,6 +82,9 @@
 		53B8E4F4291A36DA00646808 /* HomeTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B8E4FE291A370E00646808 /* JSONMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapperTests.swift; sourceTree = "<group>"; };
 		53B8E503291AA58000646808 /* CreateFormValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFormValidatorTests.swift; sourceTree = "<group>"; };
+		53B8E507291AB63C00646808 /* NetworkingEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEndpointTests.swift; sourceTree = "<group>"; };
+		53B8E50A291AFE3900646808 /* MockURLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionProtocol.swift; sourceTree = "<group>"; };
+		53B8E50D291B006100646808 /* NetworkingManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManagerTests.swift; sourceTree = "<group>"; };
 		53BC5ECB29171C2C00A6C50A /* CheckmarkPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkPopoverView.swift; sourceTree = "<group>"; };
 		9E4400DD2919AC85009C6E39 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -365,6 +371,7 @@
 		53B8E4F5291A36DA00646808 /* HomeTestProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				53B8E505291AB61300646808 /* Networking */,
 				53B8E502291AA54400646808 /* Form */,
 				53B8E4FD291A36F900646808 /* Mapper */,
 			);
@@ -385,6 +392,40 @@
 				53B8E503291AA58000646808 /* CreateFormValidatorTests.swift */,
 			);
 			path = Form;
+			sourceTree = "<group>";
+		};
+		53B8E505291AB61300646808 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				53B8E50C291B004700646808 /* NetworkingManager */,
+				53B8E509291ABEF400646808 /* Mocks */,
+				53B8E506291AB62000646808 /* Endpoint */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		53B8E506291AB62000646808 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				53B8E507291AB63C00646808 /* NetworkingEndpointTests.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		53B8E509291ABEF400646808 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				53B8E50A291AFE3900646808 /* MockURLSessionProtocol.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		53B8E50C291B004700646808 /* NetworkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				53B8E50D291B006100646808 /* NetworkingManagerTests.swift */,
+			);
+			path = NetworkingManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -519,8 +560,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B8E50E291B006100646808 /* NetworkingManagerTests.swift in Sources */,
 				53B8E504291AA58000646808 /* CreateFormValidatorTests.swift in Sources */,
 				53B8E4FF291A370E00646808 /* JSONMapperTests.swift in Sources */,
+				53B8E50B291AFE3900646808 /* MockURLSessionProtocol.swift in Sources */,
+				53B8E508291AB63C00646808 /* NetworkingEndpointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
