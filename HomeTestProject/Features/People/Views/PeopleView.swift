@@ -9,10 +9,25 @@ import SwiftUI
 
 struct PeopleView: View {
     
-    @StateObject private var vm = PeopleViewModel()
+    @StateObject private var vm: PeopleViewModel
     @State private var shouldShowCreate = false
     @State private var shouldShowSuccess = false
     @State private var hasAppeared = false
+    
+    init() {
+        #if DEBUG
+        if UITestingHelper.isUITesting {
+            let mock: NetworkingManageable = UITestingHelper.isNetworkingSuccessful
+                ? NetworkingManagerUserResponseSuccessMock()
+                : NetworkingManagerUserResponseFailureMock()
+            _vm = StateObject(wrappedValue: PeopleViewModel(networkingManager: mock))
+        } else {
+            _vm = StateObject(wrappedValue: PeopleViewModel())
+        }
+        #else
+            _vm = StateObject(wrappedValue: PeopleViewModel())
+        #endif
+    }
 
     private let columns = Array(
         repeating: GridItem(.flexible()),
@@ -34,6 +49,7 @@ struct PeopleView: View {
                                     DetailView(userId: user.id)
                                 } label: {
                                     PersonItemView(user: user)
+                                        .accessibilityIdentifier("item_\(user.id)")
                                         .task {
                                             if vm.hasReachedEnd(of: user) && !vm.isFetching{
                                                 await vm.fetchNextSetOfUsers()
@@ -41,7 +57,9 @@ struct PeopleView: View {
                                         }
                                 }
                             }
-                        }.padding()
+                        }
+                        .padding()
+                        .accessibilityIdentifier("peopleGrid")
                     }
                     .overlay(alignment: .bottom) {
                         if vm.isFetching {

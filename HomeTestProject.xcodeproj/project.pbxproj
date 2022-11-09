@@ -36,30 +36,38 @@
 		53B8E504291AA58000646808 /* CreateFormValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B8E503291AA58000646808 /* CreateFormValidatorTests.swift */; };
 		53BC5ECC29171C2C00A6C50A /* CheckmarkPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC5ECB29171C2C00A6C50A /* CheckmarkPopoverView.swift */; };
 		9E4400DE2919AC85009C6E39 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4400DD2919AC85009C6E39 /* Endpoint.swift */; };
-		9E5900C3291C477900245EC9 /* CreateValidatorFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900BE291C477900245EC9 /* CreateValidatorFailureMock.swift */; };
-		9E5900C4291C477900245EC9 /* CreateValidatorSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900BF291C477900245EC9 /* CreateValidatorSuccessMock.swift */; };
 		9E5900C5291C477900245EC9 /* CreateViewModelValidationFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900C0291C477900245EC9 /* CreateViewModelValidationFailureTests.swift */; };
 		9E5900C6291C477900245EC9 /* CreateViewModelFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900C1291C477900245EC9 /* CreateViewModelFailureTests.swift */; };
 		9E5900C7291C477900245EC9 /* CreateViewModelSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900C2291C477900245EC9 /* CreateViewModelSuccessTests.swift */; };
-		9E5900D8291C478400245EC9 /* NetworkingManagerUserDetailsResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900CB291C478400245EC9 /* NetworkingManagerUserDetailsResponseSuccessMock.swift */; };
-		9E5900D9291C478400245EC9 /* MockURLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900CC291C478400245EC9 /* MockURLSessionProtocol.swift */; };
-		9E5900DA291C478400245EC9 /* NetworkingManagerUserResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900CE291C478400245EC9 /* NetworkingManagerUserResponseSuccessMock.swift */; };
-		9E5900DB291C478400245EC9 /* NetworkingManagerUserResponseFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900CF291C478400245EC9 /* NetworkingManagerUserResponseFailureMock.swift */; };
-		9E5900DC291C478400245EC9 /* NetworkingManagerCreateFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900D1291C478400245EC9 /* NetworkingManagerCreateFailureMock.swift */; };
-		9E5900DD291C478400245EC9 /* NetworkingManagerCreateSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900D2291C478400245EC9 /* NetworkingManagerCreateSuccessMock.swift */; };
 		9E5900DE291C478400245EC9 /* NetworkingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900D4291C478400245EC9 /* NetworkingManagerTests.swift */; };
 		9E5900E0291C478400245EC9 /* NetworkingEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900D7291C478400245EC9 /* NetworkingEndpointTests.swift */; };
-		9E5900EB291C47A800245EC9 /* CreateFormValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900E2291C47A800245EC9 /* CreateFormValidatorTests.swift */; };
-		9E5900EC291C47A800245EC9 /* JSONMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900E4291C47A800245EC9 /* JSONMapperTests.swift */; };
 		9E5900ED291C47A800245EC9 /* DetailsViewModelFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900E6291C47A800245EC9 /* DetailsViewModelFailureTests.swift */; };
 		9E5900EE291C47A800245EC9 /* DetailsViewModelSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900E7291C47A800245EC9 /* DetailsViewModelSuccessTests.swift */; };
 		9E5900EF291C47A800245EC9 /* PeopleViewModelSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900E9291C47A800245EC9 /* PeopleViewModelSuccessTests.swift */; };
 		9E5900F0291C47A800245EC9 /* PeopleViewModelFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900EA291C47A800245EC9 /* PeopleViewModelFailureTests.swift */; };
-		9E5900F2291C486C00245EC9 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900F1291C486C00245EC9 /* NetworkingManagerUserDetailsResponseFailureMock.swift */; };
+		9E8FB029291C5C8A000EC302 /* PeopleScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8FB028291C5C8A000EC302 /* PeopleScreenUITests.swift */; };
+		9E8FB02C291C5D5B000EC302 /* UITestingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8FB02B291C5D5B000EC302 /* UITestingHelper.swift */; };
+		9E8FB02F291C60CC000EC302 /* NetworkingManagerUserDetailsResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900CB291C478400245EC9 /* NetworkingManagerUserDetailsResponseSuccessMock.swift */; };
+		9E8FB030291C60FA000EC302 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900F1291C486C00245EC9 /* NetworkingManagerUserDetailsResponseFailureMock.swift */; };
+		9E8FB031291C60FE000EC302 /* NetworkingManagerUserResponseSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900CE291C478400245EC9 /* NetworkingManagerUserResponseSuccessMock.swift */; };
+		9E8FB032291C6101000EC302 /* NetworkingManagerUserResponseFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900CF291C478400245EC9 /* NetworkingManagerUserResponseFailureMock.swift */; };
+		9E8FB033291C6104000EC302 /* NetworkingManagerCreateFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900D1291C478400245EC9 /* NetworkingManagerCreateFailureMock.swift */; };
+		9E8FB034291C6109000EC302 /* NetworkingManagerCreateSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900D2291C478400245EC9 /* NetworkingManagerCreateSuccessMock.swift */; };
+		9E8FB035291C610D000EC302 /* CreateValidatorFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900BE291C477900245EC9 /* CreateValidatorFailureMock.swift */; };
+		9E8FB036291C6111000EC302 /* CreateValidatorSuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900BF291C477900245EC9 /* CreateValidatorSuccessMock.swift */; };
+		9E8FB037291C6231000EC302 /* MockURLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900CC291C478400245EC9 /* MockURLSessionProtocol.swift */; };
+		9E8FB03A291C68EC000EC302 /* PeopleFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8FB039291C68EC000EC302 /* PeopleFailureUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		53B8E4F8291A36DA00646808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53122FF62913162100366B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53122FFD2913162100366B5A;
+			remoteInfo = HomeTestProject;
+		};
+		9E8FB023291C5C6D000EC302 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 53122FF62913162100366B5A /* Project object */;
 			proxyType = 1;
@@ -107,20 +115,22 @@
 		9E5900C1291C477900245EC9 /* CreateViewModelFailureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewModelFailureTests.swift; sourceTree = "<group>"; };
 		9E5900C2291C477900245EC9 /* CreateViewModelSuccessTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewModelSuccessTests.swift; sourceTree = "<group>"; };
 		9E5900CB291C478400245EC9 /* NetworkingManagerUserDetailsResponseSuccessMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerUserDetailsResponseSuccessMock.swift; sourceTree = "<group>"; };
-		9E5900CC291C478400245EC9 /* MockURLSessionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockURLSessionProtocol.swift; path = Mocks/MockURLSessionProtocol.swift; sourceTree = "<group>"; };
+		9E5900CC291C478400245EC9 /* MockURLSessionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLSessionProtocol.swift; sourceTree = "<group>"; };
 		9E5900CE291C478400245EC9 /* NetworkingManagerUserResponseSuccessMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerUserResponseSuccessMock.swift; sourceTree = "<group>"; };
 		9E5900CF291C478400245EC9 /* NetworkingManagerUserResponseFailureMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerUserResponseFailureMock.swift; sourceTree = "<group>"; };
 		9E5900D1291C478400245EC9 /* NetworkingManagerCreateFailureMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerCreateFailureMock.swift; sourceTree = "<group>"; };
 		9E5900D2291C478400245EC9 /* NetworkingManagerCreateSuccessMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerCreateSuccessMock.swift; sourceTree = "<group>"; };
 		9E5900D4291C478400245EC9 /* NetworkingManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManagerTests.swift; sourceTree = "<group>"; };
 		9E5900D7291C478400245EC9 /* NetworkingEndpointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingEndpointTests.swift; sourceTree = "<group>"; };
-		9E5900E2291C47A800245EC9 /* CreateFormValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFormValidatorTests.swift; sourceTree = "<group>"; };
-		9E5900E4291C47A800245EC9 /* JSONMapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONMapperTests.swift; sourceTree = "<group>"; };
 		9E5900E6291C47A800245EC9 /* DetailsViewModelFailureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewModelFailureTests.swift; sourceTree = "<group>"; };
 		9E5900E7291C47A800245EC9 /* DetailsViewModelSuccessTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewModelSuccessTests.swift; sourceTree = "<group>"; };
 		9E5900E9291C47A800245EC9 /* PeopleViewModelSuccessTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewModelSuccessTests.swift; sourceTree = "<group>"; };
 		9E5900EA291C47A800245EC9 /* PeopleViewModelFailureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewModelFailureTests.swift; sourceTree = "<group>"; };
 		9E5900F1291C486C00245EC9 /* NetworkingManagerUserDetailsResponseFailureMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManagerUserDetailsResponseFailureMock.swift; sourceTree = "<group>"; };
+		9E8FB01D291C5C6D000EC302 /* HomeTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8FB028291C5C8A000EC302 /* PeopleScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleScreenUITests.swift; sourceTree = "<group>"; };
+		9E8FB02B291C5D5B000EC302 /* UITestingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingHelper.swift; sourceTree = "<group>"; };
+		9E8FB039291C68EC000EC302 /* PeopleFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleFailureUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +148,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E8FB01A291C5C6D000EC302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -146,6 +163,7 @@
 			children = (
 				531230002913162100366B5A /* HomeTestProject */,
 				53B8E4F5291A36DA00646808 /* HomeTestProjectTests */,
+				9E8FB01E291C5C6D000EC302 /* HomeTestProjectUITests */,
 				53122FFF2913162100366B5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +173,7 @@
 			children = (
 				53122FFE2913162100366B5A /* HomeTestProject.app */,
 				53B8E4F4291A36DA00646808 /* HomeTestProjectTests.xctest */,
+				9E8FB01D291C5C6D000EC302 /* HomeTestProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				5312302429131B1A00366B5A /* Info.plist */,
+				9E8FB02D291C6021000EC302 /* Mocks */,
+				9E8FB02A291C5D46000EC302 /* UITesting */,
 				531230152913189300366B5A /* Base */,
 				531230142913186F00366B5A /* Features */,
 				5312300F2913164900366B5A /* Resources */,
@@ -406,8 +427,6 @@
 			isa = PBXGroup;
 			children = (
 				9E5900E5291C47A800245EC9 /* Details */,
-				9E5900E1291C47A800245EC9 /* Form */,
-				9E5900E3291C47A800245EC9 /* Mapper */,
 				9E5900E8291C47A800245EC9 /* People */,
 				9E5900C8291C478400245EC9 /* Networking */,
 				9E5900BC291C477900245EC9 /* Create */,
@@ -436,7 +455,6 @@
 		9E5900BC291C477900245EC9 /* Create */ = {
 			isa = PBXGroup;
 			children = (
-				9E5900BD291C477900245EC9 /* Mocks */,
 				9E5900C0291C477900245EC9 /* CreateViewModelValidationFailureTests.swift */,
 				9E5900C1291C477900245EC9 /* CreateViewModelFailureTests.swift */,
 				9E5900C2291C477900245EC9 /* CreateViewModelSuccessTests.swift */,
@@ -444,34 +462,13 @@
 			path = Create;
 			sourceTree = "<group>";
 		};
-		9E5900BD291C477900245EC9 /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				9E5900BE291C477900245EC9 /* CreateValidatorFailureMock.swift */,
-				9E5900BF291C477900245EC9 /* CreateValidatorSuccessMock.swift */,
-			);
-			path = Mocks;
-			sourceTree = "<group>";
-		};
 		9E5900C8291C478400245EC9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				9E5900C9291C478400245EC9 /* Mocks */,
-				9E5900CC291C478400245EC9 /* MockURLSessionProtocol.swift */,
 				9E5900D3291C478400245EC9 /* NetworkingManager */,
 				9E5900D6291C478400245EC9 /* Endpoint */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		9E5900C9291C478400245EC9 /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				9E5900CA291C478400245EC9 /* UserDetails */,
-				9E5900CD291C478400245EC9 /* UserResponse */,
-				9E5900D0291C478400245EC9 /* Create */,
-			);
-			path = Mocks;
 			sourceTree = "<group>";
 		};
 		9E5900CA291C478400245EC9 /* UserDetails */ = {
@@ -498,7 +495,8 @@
 				9E5900D1291C478400245EC9 /* NetworkingManagerCreateFailureMock.swift */,
 				9E5900D2291C478400245EC9 /* NetworkingManagerCreateSuccessMock.swift */,
 			);
-			path = Create;
+			name = Create;
+			path = Create/Create;
 			sourceTree = "<group>";
 		};
 		9E5900D3291C478400245EC9 /* NetworkingManager */ = {
@@ -517,22 +515,6 @@
 			path = Endpoint;
 			sourceTree = "<group>";
 		};
-		9E5900E1291C47A800245EC9 /* Form */ = {
-			isa = PBXGroup;
-			children = (
-				9E5900E2291C47A800245EC9 /* CreateFormValidatorTests.swift */,
-			);
-			path = Form;
-			sourceTree = "<group>";
-		};
-		9E5900E3291C47A800245EC9 /* Mapper */ = {
-			isa = PBXGroup;
-			children = (
-				9E5900E4291C47A800245EC9 /* JSONMapperTests.swift */,
-			);
-			path = Mapper;
-			sourceTree = "<group>";
-		};
 		9E5900E5291C47A800245EC9 /* Details */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,6 +529,52 @@
 			children = (
 				9E5900E9291C47A800245EC9 /* PeopleViewModelSuccessTests.swift */,
 				9E5900EA291C47A800245EC9 /* PeopleViewModelFailureTests.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		9E8FB01E291C5C6D000EC302 /* HomeTestProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E8FB038291C68D7000EC302 /* People */,
+			);
+			path = HomeTestProjectUITests;
+			sourceTree = "<group>";
+		};
+		9E8FB02A291C5D46000EC302 /* UITesting */ = {
+			isa = PBXGroup;
+			children = (
+				9E8FB02B291C5D5B000EC302 /* UITestingHelper.swift */,
+			);
+			path = UITesting;
+			sourceTree = "<group>";
+		};
+		9E8FB02D291C6021000EC302 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5900CC291C478400245EC9 /* MockURLSessionProtocol.swift */,
+				9E5900CA291C478400245EC9 /* UserDetails */,
+				9E5900CD291C478400245EC9 /* UserResponse */,
+				9E5900D0291C478400245EC9 /* Create */,
+				9E8FB02E291C6037000EC302 /* Create */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		9E8FB02E291C6037000EC302 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				9E5900BE291C477900245EC9 /* CreateValidatorFailureMock.swift */,
+				9E5900BF291C477900245EC9 /* CreateValidatorSuccessMock.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		9E8FB038291C68D7000EC302 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				9E8FB028291C5C8A000EC302 /* PeopleScreenUITests.swift */,
+				9E8FB039291C68EC000EC302 /* PeopleFailureUITests.swift */,
 			);
 			path = People;
 			sourceTree = "<group>";
@@ -589,6 +617,24 @@
 			productReference = 53B8E4F4291A36DA00646808 /* HomeTestProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9E8FB01C291C5C6D000EC302 /* HomeTestProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8FB025291C5C6D000EC302 /* Build configuration list for PBXNativeTarget "HomeTestProjectUITests" */;
+			buildPhases = (
+				9E8FB019291C5C6D000EC302 /* Sources */,
+				9E8FB01A291C5C6D000EC302 /* Frameworks */,
+				9E8FB01B291C5C6D000EC302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E8FB024291C5C6D000EC302 /* PBXTargetDependency */,
+			);
+			name = HomeTestProjectUITests;
+			productName = HomeTestProjectUITests;
+			productReference = 9E8FB01D291C5C6D000EC302 /* HomeTestProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -604,6 +650,11 @@
 					};
 					53B8E4F3291A36DA00646808 = {
 						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 53122FFD2913162100366B5A;
+					};
+					9E8FB01C291C5C6D000EC302 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 						TestTargetID = 53122FFD2913162100366B5A;
 					};
 				};
@@ -623,6 +674,7 @@
 			targets = (
 				53122FFD2913162100366B5A /* HomeTestProject */,
 				53B8E4F3291A36DA00646808 /* HomeTestProjectTests */,
+				9E8FB01C291C5C6D000EC302 /* HomeTestProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -646,6 +698,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E8FB01B291C5C6D000EC302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -656,7 +715,9 @@
 				53492E022919894F008071D5 /* SettingsView.swift in Sources */,
 				53BC5ECC29171C2C00A6C50A /* CheckmarkPopoverView.swift in Sources */,
 				531230332913285000366B5A /* StaticJSONMapper.swift in Sources */,
+				9E8FB030291C60FA000EC302 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */,
 				5347723129139EB000ED2498 /* PillView.swift in Sources */,
+				9E8FB02C291C5D5B000EC302 /* UITestingHelper.swift in Sources */,
 				531230112913165E00366B5A /* Symbols.swift in Sources */,
 				535AB6CA2917063B00671E97 /* CreateViewModel.swift in Sources */,
 				5318BF3A2916616800C56AAC /* NetworkingManager.swift in Sources */,
@@ -666,13 +727,21 @@
 				5312302B291326D200366B5A /* UserDetailResponse.swift in Sources */,
 				531230022913162100366B5A /* HomeTestProjectApp.swift in Sources */,
 				5312302D2913278200366B5A /* UsersResponse.swift in Sources */,
+				9E8FB035291C610D000EC302 /* CreateValidatorFailureMock.swift in Sources */,
+				9E8FB036291C6111000EC302 /* CreateValidatorSuccessMock.swift in Sources */,
+				9E8FB037291C6231000EC302 /* MockURLSessionProtocol.swift in Sources */,
+				9E8FB031291C60FE000EC302 /* NetworkingManagerUserResponseSuccessMock.swift in Sources */,
+				9E8FB032291C6101000EC302 /* NetworkingManagerUserResponseFailureMock.swift in Sources */,
 				5347722E29139DA600ED2498 /* PersonItemView.swift in Sources */,
 				535AB6C8291705E500671E97 /* NewPerson.swift in Sources */,
+				9E8FB02F291C60CC000EC302 /* NetworkingManagerUserDetailsResponseSuccessMock.swift in Sources */,
 				5318BF3C291669AB00C56AAC /* PeopleViewModel.swift in Sources */,
+				9E8FB034291C6109000EC302 /* NetworkingManagerCreateSuccessMock.swift in Sources */,
 				53492E0529198A8C008071D5 /* UserDefaultKeys.swift in Sources */,
 				9E4400DE2919AC85009C6E39 /* Endpoint.swift in Sources */,
 				5318BF372915790200C56AAC /* CreateView.swift in Sources */,
 				53492DFD291954C2008071D5 /* CreateValidator.swift in Sources */,
+				9E8FB033291C6104000EC302 /* NetworkingManagerCreateFailureMock.swift in Sources */,
 				5318BF3E29166F2800C56AAC /* DetailViewModel.swift in Sources */,
 				53492E0029198770008071D5 /* HapticsManager.swift in Sources */,
 				531230302913281300366B5A /* Models.swift in Sources */,
@@ -683,28 +752,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E5900C4291C477900245EC9 /* CreateValidatorSuccessMock.swift in Sources */,
-				9E5900C3291C477900245EC9 /* CreateValidatorFailureMock.swift in Sources */,
-				9E5900DB291C478400245EC9 /* NetworkingManagerUserResponseFailureMock.swift in Sources */,
 				9E5900EF291C47A800245EC9 /* PeopleViewModelSuccessTests.swift in Sources */,
 				9E5900DE291C478400245EC9 /* NetworkingManagerTests.swift in Sources */,
-				9E5900D9291C478400245EC9 /* MockURLSessionProtocol.swift in Sources */,
 				9E5900F0291C47A800245EC9 /* PeopleViewModelFailureTests.swift in Sources */,
-				9E5900DC291C478400245EC9 /* NetworkingManagerCreateFailureMock.swift in Sources */,
-				9E5900EC291C47A800245EC9 /* JSONMapperTests.swift in Sources */,
 				9E5900C7291C477900245EC9 /* CreateViewModelSuccessTests.swift in Sources */,
 				9E5900C6291C477900245EC9 /* CreateViewModelFailureTests.swift in Sources */,
 				9E5900E0291C478400245EC9 /* NetworkingEndpointTests.swift in Sources */,
 				9E5900EE291C47A800245EC9 /* DetailsViewModelSuccessTests.swift in Sources */,
-				9E5900DA291C478400245EC9 /* NetworkingManagerUserResponseSuccessMock.swift in Sources */,
 				53B8E504291AA58000646808 /* CreateFormValidatorTests.swift in Sources */,
-				9E5900D8291C478400245EC9 /* NetworkingManagerUserDetailsResponseSuccessMock.swift in Sources */,
 				9E5900C5291C477900245EC9 /* CreateViewModelValidationFailureTests.swift in Sources */,
 				53B8E4FF291A370E00646808 /* JSONMapperTests.swift in Sources */,
-				9E5900EB291C47A800245EC9 /* CreateFormValidatorTests.swift in Sources */,
-				9E5900F2291C486C00245EC9 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */,
-				9E5900DD291C478400245EC9 /* NetworkingManagerCreateSuccessMock.swift in Sources */,
 				9E5900ED291C47A800245EC9 /* DetailsViewModelFailureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8FB019291C5C6D000EC302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8FB029291C5C8A000EC302 /* PeopleScreenUITests.swift in Sources */,
+				9E8FB03A291C68EC000EC302 /* PeopleFailureUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +782,11 @@
 			isa = PBXTargetDependency;
 			target = 53122FFD2913162100366B5A /* HomeTestProject */;
 			targetProxy = 53B8E4F8291A36DA00646808 /* PBXContainerItemProxy */;
+		};
+		9E8FB024291C5C6D000EC302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53122FFD2913162100366B5A /* HomeTestProject */;
+			targetProxy = 9E8FB023291C5C6D000EC302 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -929,6 +1001,55 @@
 			};
 			name = Release;
 		};
+		9E8FB026291C5C6D000EC302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AXJR9SZZGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rafaelribeiro.HomeTestProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeTestProject;
+			};
+			name = Debug;
+		};
+		9E8FB027291C5C6D000EC302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AXJR9SZZGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.rafaelribeiro.HomeTestProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeTestProject;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -955,6 +1076,15 @@
 			buildConfigurations = (
 				53B8E4FA291A36DA00646808 /* Debug */,
 				53B8E4FB291A36DA00646808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8FB025291C5C6D000EC302 /* Build configuration list for PBXNativeTarget "HomeTestProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8FB026291C5C6D000EC302 /* Debug */,
+				9E8FB027291C5C6D000EC302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

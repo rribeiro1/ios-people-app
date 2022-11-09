@@ -1,17 +1,18 @@
 //
-//  NetworkingManagerUserResponseSuccessMock.swift
+//  NetworkingManagerUserDetailsResponseFailureMock.swift
 //  HomeTestProjectTests
 //
 //  Created by Rafael Ribeiro on 09.11.22.
 //
 
+#if DEBUG
 import Foundation
-@testable import HomeTestProject
 
-class NetworkingManagerUserResponseSuccessMock: NetworkingManageable {
+class NetworkingManagerUserDetailsResponseFailureMock: NetworkingManageable {
     func request<T>(session: URLSession, _ endpoint: HomeTestProject.Endpoint, type: T.Type) async throws -> T where T : Decodable, T : Encodable {
-        return try StaticJSONMapper.decode(file: "UsersStaticData", type: UsersResponse.self) as! T
+        throw NetworkingManager.NetworkingError.invalidUrl
     }
     
     func request(session: URLSession, _ endpoint: HomeTestProject.Endpoint) async throws {}
 }
+#endif

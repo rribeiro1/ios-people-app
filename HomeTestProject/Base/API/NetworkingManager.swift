@@ -89,7 +89,7 @@ extension NetworkingManager.NetworkingError {
     var errorDescription: String? {
         switch self {
         case .invalidUrl:
-            return "URL ins't valid"
+            return "URL isn't valid"
         case .invalidStatusCode:
             return "Status code fails into the wrong range"
         case .invalidData:
