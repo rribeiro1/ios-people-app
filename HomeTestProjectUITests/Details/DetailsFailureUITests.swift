@@ -8,7 +8,7 @@
 import XCTest
 
 final class DetailsFailureUITests: XCTestCase {
-
+    
     private var app: XCUIApplication!
     
     override func setUp() {

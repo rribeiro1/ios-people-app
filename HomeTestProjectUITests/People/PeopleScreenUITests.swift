@@ -8,7 +8,7 @@
 import XCTest
 
 final class PeopleScreenUITests: XCTestCase {
-
+    
     private var app: XCUIApplication!
     
     override func setUp() {

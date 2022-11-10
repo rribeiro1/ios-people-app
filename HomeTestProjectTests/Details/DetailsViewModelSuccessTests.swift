@@ -9,7 +9,7 @@ import XCTest
 @testable import HomeTestProject
 
 final class DetailsViewModelSuccessTests: XCTestCase {
-
+    
     private var networkingManager: NetworkingManageable!
     private var vm: DetailViewModel!
     
@@ -36,5 +36,5 @@ final class DetailsViewModelSuccessTests: XCTestCase {
         let userDetailsData = try StaticJSONMapper.decode(file: "SingleUserData", type: UserDetailResponse.self)
         XCTAssertEqual(vm.userInfo, userDetailsData)
     }
-
+    
 }

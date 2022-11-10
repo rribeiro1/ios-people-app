@@ -22,7 +22,7 @@ final class PeopleViewModelSuccessTests: XCTestCase {
         networkingMock = nil
         vm = nil
     }
-
+    
     func test_with_successful_response_users_array_is_set() async throws {
         XCTAssertFalse(vm.isLoading, "The view model shouldn't be loading any data.")
         defer {
@@ -54,11 +54,11 @@ final class PeopleViewModelSuccessTests: XCTestCase {
     func test_with_reset_called_values_is_reset() async throws {
         await vm.fetchUsers()
         XCTAssertEqual(vm.users.count, 6, "Should be 6 users within our data array")
-
+        
         await vm.fetchNextSetOfUsers()
         XCTAssertEqual(vm.users.count, 12, "Should be 12 users within our data array")
         XCTAssertEqual(vm.page, 2, "The page should be 2")
-
+        
         await vm.fetchUsers()
         XCTAssertEqual(vm.users.count, 6, "Should be 6 users within our data array")
         XCTAssertEqual(vm.page, 1, "The page should be 1")

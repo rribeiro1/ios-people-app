@@ -8,7 +8,7 @@
 import Foundation
 
 final class PeopleViewModel: ObservableObject {
-
+    
     @Published private(set) var users: [User] = []
     @Published private(set) var error: NetworkingManager.NetworkingError?
     @Published private(set) var viewState: ViewState?
@@ -26,11 +26,11 @@ final class PeopleViewModel: ObservableObject {
     }
     
     private let networkingManager: NetworkingManageable!
-
+    
     init(networkingManager: NetworkingManageable = NetworkingManager.shared) {
         self.networkingManager = networkingManager
     }
-
+    
     @MainActor
     func fetchUsers() async {
         reset()

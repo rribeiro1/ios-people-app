@@ -20,7 +20,7 @@ class JSONMapperTests: XCTestCase {
         XCTAssertEqual(userResponse?.perPage, 6, "Number per page should be 6")
         XCTAssertEqual(userResponse?.total, 12, "Total should be 12")
         XCTAssertEqual(userResponse?.totalPages, 2, "Total page should be 2")
-
+        
         let firstPerson = userResponse?.data.first
         XCTAssertEqual(firstPerson?.id, 1)
         XCTAssertEqual(firstPerson?.email, "george.bluth@reqres.in")

@@ -9,7 +9,7 @@ import XCTest
 @testable import HomeTestProject
 
 final class DetailsViewModelFailureTests: XCTestCase {
-
+    
     private var networkingManager: NetworkingManageable!
     private var vm: DetailViewModel!
     

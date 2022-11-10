@@ -37,6 +37,11 @@
 		53BC5ECC29171C2C00A6C50A /* CheckmarkPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BC5ECB29171C2C00A6C50A /* CheckmarkPopoverView.swift */; };
 		53EDA88B291CF6390058C109 /* DetailsScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDA88A291CF6390058C109 /* DetailsScreenUITests.swift */; };
 		53EDA88D291CFEFF0058C109 /* DetailsFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDA88C291CFEFF0058C109 /* DetailsFailureUITests.swift */; };
+		53EDA890291D04640058C109 /* CreateScreenUIValidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDA88F291D04640058C109 /* CreateScreenUIValidTests.swift */; };
+		53EDA892291D06D30058C109 /* CreateScreenFormValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDA891291D06D30058C109 /* CreateScreenFormValidationTests.swift */; };
+		53EDA894291D0B7E0058C109 /* CreateFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDA893291D0B7E0058C109 /* CreateFailureUITests.swift */; };
+		53EDA896291D0DB40058C109 /* CreateScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDA895291D0DB40058C109 /* CreateScreenUITests.swift */; };
+		53EDA899291D2CA70058C109 /* View+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDA898291D2CA70058C109 /* View+Navigation.swift */; };
 		9E4400DE2919AC85009C6E39 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4400DD2919AC85009C6E39 /* Endpoint.swift */; };
 		9E5900C5291C477900245EC9 /* CreateViewModelValidationFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900C0291C477900245EC9 /* CreateViewModelValidationFailureTests.swift */; };
 		9E5900C6291C477900245EC9 /* CreateViewModelFailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5900C1291C477900245EC9 /* CreateViewModelFailureTests.swift */; };
@@ -112,6 +117,11 @@
 		53BC5ECB29171C2C00A6C50A /* CheckmarkPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkPopoverView.swift; sourceTree = "<group>"; };
 		53EDA88A291CF6390058C109 /* DetailsScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenUITests.swift; sourceTree = "<group>"; };
 		53EDA88C291CFEFF0058C109 /* DetailsFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFailureUITests.swift; sourceTree = "<group>"; };
+		53EDA88F291D04640058C109 /* CreateScreenUIValidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenUIValidTests.swift; sourceTree = "<group>"; };
+		53EDA891291D06D30058C109 /* CreateScreenFormValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenFormValidationTests.swift; sourceTree = "<group>"; };
+		53EDA893291D0B7E0058C109 /* CreateFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFailureUITests.swift; sourceTree = "<group>"; };
+		53EDA895291D0DB40058C109 /* CreateScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenUITests.swift; sourceTree = "<group>"; };
+		53EDA898291D2CA70058C109 /* View+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigation.swift"; sourceTree = "<group>"; };
 		9E4400DD2919AC85009C6E39 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		9E5900BE291C477900245EC9 /* CreateValidatorFailureMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateValidatorFailureMock.swift; sourceTree = "<group>"; };
 		9E5900BF291C477900245EC9 /* CreateValidatorSuccessMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateValidatorSuccessMock.swift; sourceTree = "<group>"; };
@@ -230,6 +240,7 @@
 		531230152913189300366B5A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				53EDA897291D2C8C0058C109 /* Extensions */,
 				53492E0329198A76008071D5 /* UserDefaults */,
 				53492DFE2919875D008071D5 /* Haptics */,
 				5318BF382916615900C56AAC /* API */,
@@ -465,6 +476,25 @@
 			path = Details;
 			sourceTree = "<group>";
 		};
+		53EDA88E291D04480058C109 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				53EDA88F291D04640058C109 /* CreateScreenUIValidTests.swift */,
+				53EDA891291D06D30058C109 /* CreateScreenFormValidationTests.swift */,
+				53EDA893291D0B7E0058C109 /* CreateFailureUITests.swift */,
+				53EDA895291D0DB40058C109 /* CreateScreenUITests.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		53EDA897291D2C8C0058C109 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53EDA898291D2CA70058C109 /* View+Navigation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9E5900BC291C477900245EC9 /* Create */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,6 +579,7 @@
 		9E8FB01E291C5C6D000EC302 /* HomeTestProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
+				53EDA88E291D04480058C109 /* Create */,
 				53EDA889291CF6180058C109 /* Details */,
 				9E8FB038291C68D7000EC302 /* People */,
 			);
@@ -730,6 +761,7 @@
 				53BC5ECC29171C2C00A6C50A /* CheckmarkPopoverView.swift in Sources */,
 				531230332913285000366B5A /* StaticJSONMapper.swift in Sources */,
 				9E8FB030291C60FA000EC302 /* NetworkingManagerUserDetailsResponseFailureMock.swift in Sources */,
+				53EDA899291D2CA70058C109 /* View+Navigation.swift in Sources */,
 				5347723129139EB000ED2498 /* PillView.swift in Sources */,
 				9E8FB02C291C5D5B000EC302 /* UITestingHelper.swift in Sources */,
 				531230112913165E00366B5A /* Symbols.swift in Sources */,
@@ -784,9 +816,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53EDA890291D04640058C109 /* CreateScreenUIValidTests.swift in Sources */,
+				53EDA896291D0DB40058C109 /* CreateScreenUITests.swift in Sources */,
 				9E8FB029291C5C8A000EC302 /* PeopleScreenUITests.swift in Sources */,
+				53EDA892291D06D30058C109 /* CreateScreenFormValidationTests.swift in Sources */,
 				53EDA88D291CFEFF0058C109 /* DetailsFailureUITests.swift in Sources */,
 				9E8FB03A291C68EC000EC302 /* PeopleFailureUITests.swift in Sources */,
+				53EDA894291D0B7E0058C109 /* CreateFailureUITests.swift in Sources */,
 				53EDA88B291CF6390058C109 /* DetailsScreenUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -72,8 +72,7 @@ extension CreateViewModel {
 extension CreateViewModel.FormError {
     var errorDescription: String? {
         switch self {
-        case .networkingError(let error),
-             .validation(let error):
+        case .networkingError(let error), .validation(let error):
             return error.errorDescription
         case .system(let error):
             return error.localizedDescription
