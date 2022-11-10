@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HomeTestProject.xcscheme_^#shared#^_</key>
+		<key>HomeTestProjectTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>53122FFD2913162100366B5A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53B8E4F3291A36DA00646808</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E8FB01C291C5C6D000EC302</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
