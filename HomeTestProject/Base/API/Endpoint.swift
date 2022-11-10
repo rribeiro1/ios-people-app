@@ -19,7 +19,7 @@ extension Endpoint {
     var path: String {
         switch self {
         case .people,
-             .create:
+                .create:
             return "/api/users"
         case .detail(let id):
             return "/api/users/\(id)"
@@ -29,13 +29,13 @@ extension Endpoint {
     var methodType: MethodType {
         switch self {
         case .people,
-             .detail:
+                .detail:
             return .GET
         case .create(let data):
             return .POST(data: data)
         }
     }
-
+    
     var queryItems: [String: String]? {
         switch self {
         case .people(let page):
@@ -65,13 +65,13 @@ extension Endpoint {
         queryItems?.forEach { item in
             requestQueryItems.append(URLQueryItem(name: item.key, value: item.value))
         }
-
+        
         #if DEBUG
         requestQueryItems.append(URLQueryItem(name: "delay", value: "3"))
         #endif
         
         urlComponent.queryItems = requestQueryItems
-
+        
         return urlComponent.url
     }
 }

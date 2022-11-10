@@ -9,7 +9,7 @@ import XCTest
 @testable import HomeTestProject
 
 final class CreateViewModelSuccessTests: XCTestCase {
-
+    
     private var networkingManager: NetworkingManageable!
     private var validator: CreateValidatable!
     private var vm: CreateViewModel!

@@ -35,7 +35,7 @@ final class NetworkingManager: NetworkingManageable {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         let res = try decoder.decode(T.self, from: data)
-
+        
         return res
     }
     
@@ -47,7 +47,7 @@ final class NetworkingManager: NetworkingManageable {
         let request = buildRequest(from: url, methodType: endpoint.methodType)
         
         let (_, response) = try await session.data(for: request)
-
+        
         guard let response = response as? HTTPURLResponse,
               (200...300) ~= response.statusCode else {
             let statusCode = (response as! HTTPURLResponse).statusCode
@@ -105,7 +105,7 @@ extension NetworkingManager.NetworkingError {
 private extension NetworkingManager {
     func buildRequest(from url: URL, methodType: Endpoint.MethodType) -> URLRequest {
         var request = URLRequest(url: url)
-
+        
         switch methodType {
         case .GET:
             request.httpMethod = "GET"
@@ -113,7 +113,7 @@ private extension NetworkingManager {
             request.httpMethod = "POST"
             request.httpBody = data
         }
-
+        
         return request
     }
 }

@@ -8,26 +8,26 @@
 import SwiftUI
 
 struct DetailView: View {
-
+    
     let userId: Int
     @StateObject private var vm: DetailViewModel
-
+    
     init(userId: Int) {
         self.userId = userId
-        #if DEBUG
+#if DEBUG
         if UITestingHelper.isUITesting {
             let mock: NetworkingManageable = UITestingHelper.isDetailsNetworkingSuccessful
-                ? NetworkingManagerUserDetailsResponseSuccessMock()
-                : NetworkingManagerUserDetailsResponseFailureMock()
+            ? NetworkingManagerUserDetailsResponseSuccessMock()
+            : NetworkingManagerUserDetailsResponseFailureMock()
             _vm = StateObject(wrappedValue: DetailViewModel(networkingManager: mock))
         } else {
             _vm = StateObject(wrappedValue: DetailViewModel())
         }
-        #else
-            _vm = StateObject(wrappedValue: DetailViewModel())
-        #endif
+#else
+        _vm = StateObject(wrappedValue: DetailViewModel())
+#endif
     }
-
+    
     var body: some View {
         ZStack {
             backgroud
@@ -65,11 +65,10 @@ struct DetailView_Previews: PreviewProvider {
         let user = try! StaticJSONMapper.decode(file: "SingleUserData", type: UserDetailResponse.self)
         return user.data.id
     }
-
+    
     static var previews: some View {
-        NavigationView {
-            DetailView(userId: previewUserId)
-        }
+        DetailView(userId: previewUserId)
+            .embedInNavigation()
     }
 }
 
@@ -127,7 +126,7 @@ private extension DetailView {
             .font(.system(.subheadline, design: .rounded))
         Divider()
     }
-
+    
     @ViewBuilder
     var lastName: some View {
         Text("Last Name").font(.system(.body, design: .rounded).weight(.semibold))
